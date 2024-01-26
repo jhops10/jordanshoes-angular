@@ -1,0 +1,9 @@
+@import "../../../styles.css";
+
+.topper {
+  height: 64px;
+  padding: 19px 0;
+  text-align: center;
+  font-weight: 500;
+  background-color: var(--dark-30);
+}
