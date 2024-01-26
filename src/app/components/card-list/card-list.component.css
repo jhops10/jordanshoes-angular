@@ -35,6 +35,7 @@ section {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  gap: 32px;
+  gap: 28px;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }

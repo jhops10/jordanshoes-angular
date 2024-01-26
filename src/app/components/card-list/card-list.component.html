@@ -8,12 +8,13 @@
       </p>
     </div>
     <div class="cards-container">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
+      <app-card
+        *ngFor="let product of productList"
+        imgUrl="{{ product.imgUrl }}"
+        name="{{ product.name }}"
+        type="{{ product.type }}"
+        price="{{ product.price }}"
+      ></app-card>
     </div>
   </div>
 </section>
