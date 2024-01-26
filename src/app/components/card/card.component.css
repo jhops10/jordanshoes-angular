@@ -1,0 +1,37 @@
+@import "../../../styles.css";
+
+.card-container {
+  min-width: 350px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-20);
+  height: 200px;
+}
+
+.img-container img {
+  width: 225px;
+}
+
+.text-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-10);
+  margin: 12px 0;
+}
+
+.text-container span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--brand-color);
+}
+
+.text-container p {
+  font-size: 20px;
+  margin: 12px 0;
+  font-weight: bold;
+  font-family: var(--font-space);
+}
