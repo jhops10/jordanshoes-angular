@@ -5,7 +5,7 @@
 Desafio 02 - Comunidade Codelândia <br>
 Exercício prático para aprimorar minhas habilidades e documentar o meu processo de evolução nas tecnologias front-end.
 
-Deploy: 
+Deploy: [JordanShoes](https://jordanshoes-angular.vercel.app/)
 
 ## Tecnologias Utilizadas
  * Angular
